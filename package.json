@@ -1,0 +1,28 @@
+{
+    "name": "nyugodtutazas-mern",
+    "version": "1.0.0",
+    "description": "Ez egy bemutató, gyakorló projekt egy képzeletbeli utazási irodáról.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "dev": "nodemon server/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ProjektmunkakMindenfeleNyelven/NyugodtUtazas-MERN.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ProjektmunkakMindenfeleNyelven/NyugodtUtazas-MERN/issues"
+    },
+    "homepage": "https://github.com/ProjektmunkakMindenfeleNyelven/NyugodtUtazas-MERN#readme",
+    "dependencies": {
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}
